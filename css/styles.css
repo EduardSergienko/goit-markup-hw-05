@@ -292,7 +292,35 @@ header {
 .we-doing-list .list + .list {
   margin-left: 30px;
 }
-.skils {
+
+.we-doing-list .skils {
+  display: block;
+}
+
+.img-wrap {
+  position: relative;
+}
+
+.descript {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 370px;
+  height: 70px;
+  bottom: 0;
+  background: rgba(47, 48, 58, 0.8);
+}
+
+.descript-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
 
 /* Our team */
